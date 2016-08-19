@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^velogig.com$
+RewriteRule ^/?$ "http\:\/\/www\.velogig\.com\/" [R=301,L]
+
